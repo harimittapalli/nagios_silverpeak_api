@@ -42,7 +42,7 @@ warn=opts.warning
 crit=opts.critical
 
 def memory_usage():
-#ipaddr='10.43.32.92'
+
         login_url = "https://{}/rest/json/login".format(ipaddr)
         logout_url=  "https://{}/rest/json/logout".format(ipaddr)
 
@@ -84,7 +84,6 @@ def memory_usage():
         s.close()
         sys.exit(status)
 def swap_usage():
-#ipaddr='10.43.32.92'
         login_url = "https://{}/rest/json/login".format(ipaddr)
         logout_url=  "https://{}/rest/json/logout".format(ipaddr)
 
