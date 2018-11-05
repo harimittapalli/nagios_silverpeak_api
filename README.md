@@ -1,9 +1,11 @@
 # nagios_silverpeak_api
 
 
-### Usage: silverpeak_api.py [options]
+Usage: silverpeak_api.py [options]
+----------------------------------
 
 Options:
+
 
 
   --version             show program's version number and exit
@@ -27,4 +29,11 @@ Options:
                         
   -C CRIT, --critical=CRIT
   
-                        Critical threshold threshold
+                        Critical threshold
+
+Examples
+--------
+
+  python nagios_silverpeak_api.py -H hostname -O diskusage -W 80 -C 90  
+  python nagios_silverpeak_api.py -H hostname -O alarms  
+  python nagios_silverpeak_api.py -H hostname -O memory -W 80 -C 90
