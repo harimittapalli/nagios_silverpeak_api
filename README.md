@@ -1,5 +1,8 @@
 # nagios_silverpeak_api
 
+## Nagios Silver Peak API Plugin: 
+
+  `nagios_silverpeak_api.py` is written in python 3 and is used to monitor the Silver peak network devices resources through REST API.
 
 Usage: silverpeak_api.py [options]
 ----------------------------------
